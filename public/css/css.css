@@ -1,0 +1,166 @@
+body {
+	margin: 0px;	
+	background-repeat:repeat-x;		
+	font-family:"宋体";
+	font-size:12px;
+	text-decoration:none;
+	background:url(../images/bgcolor.gif) repeat-x;
+	background-color:#d2ebf0;	
+}
+table {
+	font-size: 12px;	
+}
+
+a:link {
+	color: #333333;
+	text-decoration: none;
+}
+a:visited {	
+	color: #333333;
+	text-decoration: none;
+}
+a:hover {
+	color: #993399;
+}
+.foot {
+    font-family:"宋体";
+	font-size:14px;
+	line-height:26px;
+	color:#ffffff;
+	font-weight:bold;	
+	
+}
+.cggk {
+    font-family:"幼圆";
+	font-size:14px;
+	color:#103c63;
+	font-weight:bold;	
+	padding-bottom:3px;
+	padding-left:8px;
+	
+}
+.clink {text-decoration: none;font-size:15px;font-family:幼圆;font-weight:bold;color:#ffffff;text-align:center;margin:auto auto;}
+.clink a{text-decoration: none;font-size:15px;font-family:幼圆;font-weight:bold;color:#ffffff;text-align:center;margin:auto auto; display:block; height:34px; line-height:34px;}
+.clink a:visited{font-size:15px;font-family:幼圆;font-weight:bold;color:#ffffff;text-decoration:none;text-align:center;}
+.clink a:hover{font-size:15px;font-family:幼圆;font-weight:bold;color:#000000;background:#bcd5ed;	text-decoration:none;text-align:center;}
+
+.clink a:active{font-size:15px;font-family:幼圆;font-weight:bold;	color:#ffffff;text-align:center;text-decoration:none;}
+.clink td{text-align:center;	}
+
+.p9 {
+	font-size: 12px;
+	line-height: 20px;
+	font-family:"宋体";	
+}
+	  
+.tit {
+	font-size: 15pt;
+	line-height: 16pt;
+	font-weight: bold;
+}
+.tit1 {
+	font-size: 16px;
+	line-height: 20pt;	
+	font-weight:bold;	
+	text-align:left;
+	color:#ffffff;
+	font-family:"幼圆";
+	
+}
+.tit2 {
+	font-size: 14px;
+	line-height: 20pt;
+	font-weight: bold;
+	color: #2167f5;
+	font-family:"幼圆";
+}
+.tit2 a{
+	font-size: 14px;
+	line-height: 20pt;
+	font-weight: bold;
+	color: #2167f5;
+	font-family:"幼圆";
+	text-decoration:none;
+}
+.tit2 a:hover{
+	font-size: 14px;
+	line-height: 20pt;
+	font-weight: bold;
+	color:#ff0000;
+	text-decoration:none;	
+	font-family:"幼圆";
+	text-decoration:none;
+}
+.tit3 {
+	font-size: 15px;
+	line-height: 20pt;
+	font-weight: bold;
+	color: #075991;
+	font-family:"幼圆";
+}
+.tit3 a{
+	font-size: 15px;
+	line-height: 20pt;
+	font-weight: bold;
+	color: #075991;
+	font-family:"幼圆";
+	text-decoration:none;
+}
+.tit3 a:hover{
+	font-size: 15px;
+	line-height: 20pt;
+	font-weight: bold;
+	color:#990000;
+	text-decoration:none;	
+	font-family:"幼圆";
+	text-decoration:none;
+}
+.content {
+	font-size: 12pt;
+	line-height: 150%;
+}
+.cxcg a{
+    font-family:"微软雅黑";
+	font-size:14px;
+	line-height:24px;
+	color:#103c63;
+}
+.cxcg a:hover{   
+	color:#993333;
+}
+.cxcg a:visited{    
+	color:#103c63;
+}
+.cxcg a:active{    
+	color:#103c63;
+}
+.cxcg {
+    font-family:"微软雅黑";
+	font-size:14px;
+	line-height:24px;
+	color:#103c63;
+}
+.cxcg2 {
+    font-family:"宋体";
+	font-size:14px;
+	line-height:22px;
+	color:#333333;
+}
+
+
+.position {
+    font-size:12px;
+	color:#333333;	
+	line-height:120%;
+	font-weight:bold;
+	
+}                   
+.zycx {text-decoration: none;font-size:15px;font-family:幼圆;font-weight:bold;color:#0777ae;margin:auto auto;}
+.zycx a{text-decoration: none;font-size:15px;font-family:幼圆;font-weight:bold;color:#0777ae;margin:auto auto; display:block; height:34px; line-height:34px;}
+.zycx a:visited{font-size:15px;font-family:幼圆;font-weight:bold;color:#0777ae;text-decoration:none;}
+.zycx a:hover{font-size:15px;font-family:幼圆;font-weight:bold;color:#990000;text-decoration:none;}
+
+.zycx a:active{font-size:15px;font-family:幼圆;font-weight:bold;	color:#0777ae;text-decoration:none;}
+	
+   
+	
