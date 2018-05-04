@@ -20,4 +20,7 @@ router.get('/video', function(req, res, next) {
 router.get('/materials', function(req, res, next) {
     res.render('main//materials');
 })
+router.get('/nav', function(req, res, next) {
+    res.render('main//nav');
+})
 module.exports = router;

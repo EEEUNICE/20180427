@@ -60,5 +60,4 @@ swig.setDefaults({
 
 
 app.use('/', require('./routers/main'));
-app.use('/issue1', require('./routers/issue1'));
 app.listen(4080);

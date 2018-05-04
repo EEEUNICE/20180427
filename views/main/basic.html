@@ -22,156 +22,224 @@
                     </tr>
                     <tr>
                         <td height="415" colspan="3"  valign="top" align="center">
-
-                            <div frag="窗口1" portletmode="simpleColumnList">
-
-
-                                <table align="right" width="96%" border="0" cellpadding="0" cellspacing="0">
-
-
-                                    <tr>
-                                        <td width="14" align="center" height="33"><img src="public/image/sign2.png"></td>
-                                        <td align="left" class="tit3"><a href="/" title="首页导航" class="" target="_self">首页导航</a></td>
-
-                                    </tr>
-                                    <tr>
-                                        <td height="1" colspan="3" bgcolor="#187bde"></td>
-                                    </tr>
-
-
-                                    <tr>
-                                        <td height="29" align="center" valign="middle"></td>
-                                        <td><table width="100%"  border="0" cellpadding="0" cellspacing="0">
-
-
-                                            <tr>
-                                                <td width="20" height="29" align="center" valign="middle" ><img src="public/image/c1.gif"></td>
-                                                <td height="29" align="left" class="tit2"><a href="/" title="首页" class="" target="_self">首页</a></td>
-                                            </tr>
-
-
-
-                                            <tr>
-                                                <td width="20" height="29" align="center" valign="middle" ><img src="public/image/c1.gif"></td>
-                                                <td height="29" align="left" class="tit2"><a href="/application" title="成果申请书" class="" target="_self">成果申请书</a></td>
-                                            </tr>
-
+                            <script language="javascript" id="clientEventHandlersJS">
+                                <!--
+                                var number=5;//设置多少个菜单//开始前固定
+                                function LMYC() {
+                                    var lbmc;
+//var treePic;
+                                    for (i=1;i<=number;i++) {
+                                        lbmc = eval('LM' + i);
+//treePic = eval('treePic'+i);
+//treePic.src = 'images/file.gif';
+                                        lbmc.style.display = 'none';
+                                    }
+                                }
+                                function ShowFLT(i) {
+                                    lbmc = eval('LM' + i);
+//treePic = eval('treePic' + i)
+                                    if (lbmc.style.display == 'none') {
+                                        LMYC();
+//treePic.src = 'images/nofile.gif';
+                                        lbmc.style.display = '';
+                                    }
+                                    else {
+//treePic.src = 'images/file.gif';
+                                        lbmc.style.display = 'none';
+                                    }
+                                }
+                                //-->
+                            </script>
+                            <table width="238" border="0" align="center" cellpadding="0" cellspacing="1" bgcolor="#F6F6F6" class="tabletree1">
+                                <tr>
+                                    <td width="180" height="35" bgcolor="#FFFFFF"  style="PADDING-LEFT: 40px; font-size:16px; color:#FFFFFF; font-weight:bold; border-bottom:0px; border-top:0px;"><A title="首页导航" href="#" target="_self">首页导航</A></td>
+                                </tr>
 
 
-                                            <tr>
-                                                <td width="20" height="29" align="center" valign="middle" ><img src="public/image/c1.gif"></td>
-                                                <td height="29" align="left" class="tit2"><a href="#########" title="成果总结" class="" target="_self">成果总结</a></td>
-                                            </tr>
+                                <tr>
+                                    <td width="180" height="35" bordercolor="#FFFFFF"  bgcolor="#FFFFFF" class="xm_t"   style="PADDING-LEFT: 40px"><font style="font-size: 11pt"  ><img src="js_css/sign2.png" /><a onClick="javascript:ShowFLT(1)" href="#">成果申请书</a></font></td>
+                                </tr>
 
 
-
-                                            <tr>
-                                                <td width="20" height="29" align="center" valign="middle" ><img src="public/image/c1.gif"></td>
-                                                <td height="29" align="left" class="tit2"><a href="##################333" title="成果鉴定获奖" class="" target="_self">成果鉴定获奖</a></td>
-                                            </tr>
-
-
+                                <tr id="LM1" style="DISPLAY: none">
+                                    <td width="180" bgcolor="#FFFFFF"><!--以下是第一个参考资料分类-->
+                                        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="tabletree2">
 
                                             <tr>
-                                                <td width="20" height="29" align="center" valign="middle" ><img src="public/image/c1.gif"></td>
-                                                <td height="29" align="left" class="tit2"><a href="##########" title="实践教学平台" class="" target="_self">实践教学平台</a></td>
+                                                <td height="35" valign="middle" bgcolor="#FFFFFF" class="tabletree3"  style="PADDING-LEFT:40px; ">&nbsp;<img src="js_css/c1.gif" /><a href="#" target="mainFrame">申报管理</a></td>
                                             </tr>
-
-
 
                                             <tr>
-                                                <td width="20" height="29" align="center" valign="middle" ><img src="public/image/c1.gif"></td>
-                                                <td height="29" align="left" class="tit2"><a href="################" title="人才培养" class="" target="_self">人才培养</a></td>
+                                                <td height="35" valign="middle" bgcolor="#FFFFFF" class="tabletree3"  style="PADDING-LEFT:40px; ">&nbsp;<img src="js_css/c1.gif" /><a href="#" target="mainFrame">分类管理</a></td>
                                             </tr>
-
-
-
-                                            <tr>
-                                                <td width="20" height="29" align="center" valign="middle" ><img src="public/image/c1.gif"></td>
-                                                <td height="29" align="left" class="tit2"><a href="#########################" title="成果视频" class="" target="_self">成果视频</a></td>
-                                            </tr>
-
-
                                         </table></td>
-                                    </tr>
+                                </tr>
+
+                                <tr>
+                                    <td width="180" height="35" bordercolor="#FFFFFF"  bgcolor="#FFFFFF"  class="xm_t"  style="PADDING-LEFT: 40px"><font style="font-size: 11pt"  ><img src="js_css/sign2.png" /><a onClick="javascript:ShowFLT(2)" href="#">成果报告&nbsp;</a></font></td>
+                                </tr>
+
+                                <tr id="LM2" style="DISPLAY: none">
+                                    <td width="180" bgcolor="#FFFFFF"><!--以下是第一个参考资料分类-->
+                                        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="tabletree2">
+                                            <tr>
+                                                <td height="30" class="tabletree3"  style="PADDING-LEFT:40px">&nbsp;<img src="js_css/c1.gif" /><a href="#" target="mainFrame" >院系审核</a></td>
+                                            </tr>
+                                        </table></td>
+                                </tr>
+
+                                <tr>
+                                    <td width="180" height="35" bordercolor="#FFFFFF"  bgcolor="#FFFFFF"  class="xm_t"  style="PADDING-LEFT: 40px"><font style="font-size: 11pt"  ><img src="js_css/sign2.png" /><a onClick="javascript:ShowFLT(4)" href="#">成果鉴定书</a><a onClick="javascript:ShowFLT(3)" href="#">&nbsp;</a></font></td>
+                                </tr>
+
+                                <tr id="LM3" style="DISPLAY: none">
+                                    <td width="180" bgcolor="#FFFFFF"><!--以下是第一个参考资料分类-->
+                                        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="tabletree2">
+
+                                            <tr>
+                                                <td height="30" bgcolor="#FFFFFF" class="tabletree3"  style="PADDING-LEFT:40px">&nbsp;<img src="js_css/c1.gif" /><a href="#" target="mainFrame">新增任务</a></td>
+                                            </tr>
+                                        </table></td>
+                                </tr>
 
 
 
+                                <tr>
+                                    <td width="180" height="35" bordercolor="#FFFFFF"  bgcolor="#FFFFFF"  class="xm_t"  style="PADDING-LEFT: 40px"><font style="font-size: 11pt"  ><img src="js_css/sign2.png" /><a onClick="javascript:ShowFLT(5)" href="javascript:void(null)">成果展示视频</a></font></td>
+                                </tr>
 
+                                <tr id="LM4" style="DISPLAY: none">
+                                    <td width="180" bgcolor="#FFFFFF"><!--以下是第一个参考资料分类-->
+                                        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="tabletree2">
 
-                                    <tr>
-                                        <td width="14" align="center" height="33"><img src="public/image/sign2.png"></td>
-                                        <td align="left" class="tit3"><a href="#################" title="成果概况" class="" target="_self">成果概况</a></td>
-
-                                    </tr>
-                                    <tr>
-                                        <td height="1" colspan="3" bgcolor="#187bde"></td>
-                                    </tr>
-
-
-
-
-
-
-                                    <tr>
-                                        <td width="14" align="center" height="33"><img src="public/image/sign2.png"></td>
-                                        <td align="left" class="tit3"><a href="###############" title="主要成效" class="" target="_self">主要成效</a></td>
-
-                                    </tr>
-                                    <tr>
-                                        <td height="1" colspan="3" bgcolor="#187bde"></td>
-                                    </tr>
-
-
-
-
-
-
-                                    <tr>
-                                        <td width="14" align="center" height="33"><img src="public/image/sign2.png"></td>
-                                        <td align="left" class="tit3"><a href="################" title="创新成果" class="" target="_self">创新成果</a></td>
-
-
-                                    <tr>
-                                        <td height="1" colspan="3" bgcolor="#187bde"></td>
-                                    </tr>
-
-
-
-
-
-
-                                    <tr>
-                                        <td width="14" align="center" height="33"><img src="public/image/sign2.png"></td>
-                                        <td align="left" class="tit3"><a href="##################" title="图片展示" class="" target="_self">图片展示</a></td>
-
-                                    </tr>
-                                    <tr>
-                                        <td height="1" colspan="3" bgcolor="#187bde"></td>
-                                    </tr>
+                                            <tr>
+                                                <td height="30" bgcolor="#FFFFFF" class="tabletree3"  style="PADDING-LEFT:40px">&nbsp;<img src="js_css/c1.gif" /><a href="#" target="mainFrame" >新闻通知</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" bgcolor="#FFFFFF" class="tabletree3"  style="PADDING-LEFT:40px">&nbsp;<img src="js_css/c1.gif" /><a href="#" target="mainFrame" >教学奖励</a></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
 
 
 
 
 
 
-                                    <tr>
-                                        <td width="14" align="center" height="33"><img src="public/image/sign2.png"></td>
-                                        <td align="left" class="tit3"><a href="############" title="创新成果详细内容" class="" target="_self">创新成果详细内容</a></td>
+                                <tr>
+                                    <td width="180" height="35" bordercolor="#FFFFFF"  bgcolor="#FFFFFF"  class="xm_t"  style="PADDING-LEFT: 40px"><font style="font-size: 11pt"  ><img src="js_css/sign2.png" /><a onClick="javascript:ShowFLT(5)" href="javascript:void(null)">成果支撑材料</a></font></td>
+                                </tr>
 
-                                    </tr>
-                                    <tr>
-                                        <td height="1" colspan="3" bgcolor="#187bde"></td>
-                                    </tr>
+                                <tr id="LM5" style="DISPLAY: none">
+                                    <td width="180" bgcolor="#FFFFFF"><!--以下是第一个参考资料分类-->
+                                        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="tabletree2">
+
+                                            <tr>
+                                                <td height="30" bgcolor="#FFFFFF" class="tabletree3"  style="PADDING-LEFT:40px">&nbsp;<img src="js_css/c1.gif" /><a href="#" target="mainFrame" >新闻通知</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="30" bgcolor="#FFFFFF" class="tabletree3"  style="PADDING-LEFT:40px">&nbsp;<img src="js_css/c1.gif" /><a href="#" target="mainFrame" >教学奖励</a></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+
+
+
+
+                            </table>
+
+                            <!--<div frag="窗口1" portletmode="simpleColumnList">-->
+
+
+                                <!--<table align="right" width="96%" border="0" cellpadding="0" cellspacing="0">-->
+
+
+                                    <!--<tr>-->
+                                        <!--<td width="14" align="center" height="33"><img src="public/image/sign2.png"></td>-->
+                                        <!--<td align="left" class="tit3"><a href="nav" title="首页导航" class="" target="_self">首页导航</a></td>-->
+
+                                    <!--</tr>-->
+                                    <!--<tr>-->
+                                        <!--<td height="1" colspan="3" bgcolor="#187bde"></td>-->
+                                    <!--</tr>-->
+
+
+
+
+                                    <!--<tr>-->
+                                        <!--<td width="14" align="center" height="33"><img src="public/image/sign2.png"></td>-->
+                                        <!--<td align="left" class="tit3"><a href="#######" title="成果概况" class="" target="_self">成果概况</a></td>-->
+
+                                    <!--</tr>-->
+                                    <!--<tr>-->
+                                        <!--<td height="1" colspan="3" bgcolor="#187bde"></td>-->
+                                    <!--</tr>-->
 
 
 
 
 
-                                </table>
+
+                                    <!--<tr>-->
+                                        <!--<td width="14" align="center" height="33"><img src="public/image/sign2.png"></td>-->
+                                        <!--<td align="left" class="tit3"><a href="###############" title="主要成效" class="" target="_self">主要成效</a></td>-->
+
+                                    <!--</tr>-->
+                                    <!--<tr>-->
+                                        <!--<td height="1" colspan="3" bgcolor="#187bde"></td>-->
+                                    <!--</tr>-->
+                                   <!---->
 
 
-                            </div>
+
+
+
+                                    <!--<tr>-->
+                                        <!--<td width="14" align="center" height="33"><img src="public/image/sign2.png"></td>-->
+                                        <!--<td align="left" class="tit3"><a href="################" title="创新成果" class="" target="_self">创新成果</a></td>-->
+
+
+                                    <!--<tr>-->
+                                        <!--<td height="1" colspan="3" bgcolor="#187bde"></td>-->
+                                    <!--</tr>-->
+                                <!---->
+
+
+
+
+                                    <!--<tr>-->
+                                        <!--<td width="14" align="center" height="33"><img src="public/image/sign2.png"></td>-->
+                                        <!--<td align="left" class="tit3"><a href="##################" title="图片展示" class="" target="_self">图片展示</a></td>-->
+
+                                    <!--</tr>-->
+                                    <!--<tr>-->
+                                        <!--<td height="1" colspan="3" bgcolor="#187bde"></td>-->
+                                    <!--</tr>-->
+
+
+
+
+
+
+                                    <!--<tr>-->
+                                        <!--<td width="14" align="center" height="33"><img src="public/image/sign2.png"></td>-->
+                                        <!--<td align="left" class="tit3"><a href="############" title="创新成果详细内容" class="" target="_self">创新成果详细内容</a></td>-->
+
+                                    <!--</tr>-->
+                                    <!--<tr>-->
+                                        <!--<td height="1" colspan="3" bgcolor="#187bde"></td>-->
+                                    <!--</tr>-->
+
+
+
+
+
+                                <!--</table>-->
+
+
+                            <!--</div>-->
                         </td>
                     </tr>
                 </table></td>
